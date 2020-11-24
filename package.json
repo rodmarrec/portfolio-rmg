@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-rmg",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodmarrec/portfolio-rmg.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "frontend",
+    "backend",
+    "full-stack"
+  ],
+  "author": "Rodrigo Marron romarron01@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodmarrec/portfolio-rmg/issues"
+  },
+  "homepage": "https://github.com/rodmarrec/portfolio-rmg#readme"
+}
