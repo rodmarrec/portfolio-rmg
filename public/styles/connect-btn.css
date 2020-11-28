@@ -1,10 +1,10 @@
 /* root element to contain global variables */
 :root {
     /*  Brand Colors  */
-    --github: #3b5998;
-    --twitter: #55acee;
-    --instagram: #517fa4;
-    --linkedin: #0077b5;
+    --linkedin: #fdbb65;
+    --github: #ffab3c;
+    --instagram: #ff9102;
+    --medium: #ff8119;
     
     /*  Fonts  */
     --base-font: "montserrat", sans-serif;
@@ -33,7 +33,7 @@ body.light {
     /*  colors  */
     --background: #f1f1f1;
     --background-sub: #dfe6e9;
-    --background-inverse: #2d3436;
+    --background-inverse: #13b99e;
     /*  text colors  */
     --text: var(--background);
     --text-inverse: var(--background-inverse);
@@ -127,8 +127,8 @@ body {
 .share__icon--github:hover {
     background: var(--github);
 }
-.share__icon--twitter:hover {
-    background: var(--twitter);
+.share__icon--medium:hover {
+    background: var(--medium);
 }
 .share__icon--instagram:hover {
     background: var(--instagram);
