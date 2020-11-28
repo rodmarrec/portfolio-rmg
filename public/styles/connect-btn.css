@@ -1,16 +1,17 @@
 /* root element to contain global variables */
 :root {
     /*  Brand Colors  */
-    --linkedin: #fdbb65;
-    --github: #ffab3c;
-    --instagram: #ff9102;
-    --medium: #ff8119;
+    --resume: #ff7c7c;
+    --linkedin: #ffa17c;
+    --github: #ffc27c;
+    --gmail: #ff7cd3;
+    --instagram: #da7cff;
     
     /*  Fonts  */
     --base-font: "montserrat", sans-serif;
 }
 
-body.aqua-go {
+footer.aqua-go {
     /*  colors  */
     --background: #a3d2ca;
     --background-sub: #5eaaa8;
@@ -19,27 +20,28 @@ body.aqua-go {
     --text: var(--background);
     --text-inverse: var(--background-inverse);
 }
-body.reddy {
+
+footer.reddy {
     /*  colors  */
     --background: #f1f3de;
-    --background-sub: #e8ded2;
+    --background-sub: #e8d2e1;
     --background-inverse: #ea5455;
     /*  text colors  */
     --text: var(--background);
     --text-inverse: var(--background-inverse);
 }
 
-body.light {
+footer.light {
     /*  colors  */
     --background: #f1f1f1;
-    --background-sub: #dfe6e9;
-    --background-inverse: #13b99e;
+    --background-sub: #f1f1f1;
+    --background-inverse: #2d3436;
     /*  text colors  */
     --text: var(--background);
     --text-inverse: var(--background-inverse);
 }
 
-body.dark {
+footer.dark {
     /*  colors  */
     --background: #1f1f1f;
     --background-sub: #2d3436;
@@ -49,7 +51,7 @@ body.dark {
     --text-inverse: var(--background-inverse);
 }
 
-body {
+footer {
     font-family: var(--base-font);
     background: var(--background);
     margin: 0;
@@ -57,13 +59,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; 
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .share {
-    --button-width: 280px;
-    --button-height: 80px;
-    --button-radius: 20px;
+    --button-width: 270px;
+    --button-height: 50px;
+    --button-radius: 10px;
     
     width: var(--button-width);
     height: var(--button-height);
@@ -91,7 +93,7 @@ body {
     width: 100%;
     color: var(--text);
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.4em;
     line-height: var(--button-height);
     border-radius: var(--button-radius);
     transition: .4s linear;
@@ -124,15 +126,22 @@ body {
 }
 
 
+
+.share__icon--resume:hover {
+    background: var(--resume);
+}
+
+.share__icon--linkedin:hover {
+    background: var(--linkedin);
+}
+
 .share__icon--github:hover {
     background: var(--github);
 }
-.share__icon--medium:hover {
-    background: var(--medium);
+
+.share__icon--gmail:hover {
+    background: var(--gmail);
 }
 .share__icon--instagram:hover {
     background: var(--instagram);
-}
-.share__icon--linkedin:hover {
-    background: var(--linkedin);
 }
