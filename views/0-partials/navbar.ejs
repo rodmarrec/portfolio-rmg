@@ -1,11 +1,45 @@
-<header id="header" class="d-flex flex-column justify-content-center">
+<header id="header" 
+    class="d-flex flex-column justify-content-center">
     
     <div class="inner">
-        <h3 class="masthead-brand">Cover</h3>
-        <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
+        <br>
+        <nav class="nav nav-masthead float-right">
+
+            <!-- STUB contact button -->
+            <%- include ("./connect-btn.ejs") -%>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="nav-bar form-inline float-left " 
+                id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                            href="#" 
+                            style="font-size: 1.4em;">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                            href="#" 
+                            style="font-size: 1.4em;">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                            href="#" 
+                            style="font-size: 1.4em;">
+                            Projects
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </nav>
     </div>
 
