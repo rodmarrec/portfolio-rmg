@@ -16,6 +16,10 @@ app.get("/", (req, res) => {
     res.render("index.ejs")
 })
 
+app.get("/about", (req, res) => {
+    res.render("about.ejs")
+})
+
 // STUB server listener
 app.listen(PORT, () => {
     console.log(`Listening for client request on ${PORT}`);
