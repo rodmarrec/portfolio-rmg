@@ -5,7 +5,7 @@ const express = require("express");
 app = express();
 
 // STUB configuration
-const PORT = 3000
+const PORT = 4000
 app.set("view engine", "ejs");
 
 // STUB middleware
