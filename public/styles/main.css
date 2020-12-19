@@ -18,3 +18,10 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#thumbnail {
+    width: 120px;
+    height: 120px;
+    border: 9px solid #e5eaee;
+    border-radius: 50%;
+}
