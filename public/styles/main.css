@@ -35,8 +35,8 @@ body, html {
 
 
 #thumbnail {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     border: 9px solid rgba(254, 209, 54);
     border-radius: 100%;
 }

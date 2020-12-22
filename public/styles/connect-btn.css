@@ -1,11 +1,11 @@
 /* root element to contain global variables */
 :root {
     /*  Brand Colors  */
-    --resume: #ff7c7c;
-    --linkedin: #ffa17c;
-    --github: #ffc27c;
-    --gmail: #ff7cd3;
-    --instagram: #da7cff;
+    --resume: #585a5c;
+    --linkedin: rgba(254, 209, 54);
+    --github: rgba(254, 209, 54);
+    --gmail: rgba(254, 209, 54);
+    --instagram: rgba(254, 209, 54);
     
     /*  Fonts  */
     --base-font: "montserrat", sans-serif;
@@ -33,9 +33,8 @@ footer.reddy {
 
 footer.light {
     /*  colors  */
-    --background: #f1f1f1;
-    --background-sub: #f1f1f1;
-    --background-inverse: #2d3436;
+
+    --background-inverse: rgba(254, 209, 54);
     /*  text colors  */
     --text: var(--background);
     --text-inverse: var(--background-inverse);
